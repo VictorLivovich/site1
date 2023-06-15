@@ -1,0 +1,115 @@
+.header{
+   text-align: center;
+   color:green;
+}
+.header__wrepper{
+   margin: 0 auto;
+   width: 760px;
+   display: flex;
+   justify-content: space-between;
+}
+.header__wrepper-seasonings{
+   margin: 0 auto;
+   width: 1000px;
+   display: flex;
+   justify-content: space-between;  
+}
+.btn{
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(99, 199, 32);
+   background:yellow;
+   border:none;
+   line-height: 30px;
+   padding: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   -webkit-box-shadow: 3px 7px 10px 7px rgba(62, 191, 66, 0.2);
+   -moz-box-shadow: 3px 7px 10px 7px rgba(62, 191, 66, 0.2);
+   box-shadow: 3px 7px 10px 7px rgba(62, 191, 66, 0.2);
+   margin-bottom: 40px; 
+   font-weight: 800;  
+}
+.btn-seasonings{
+   font-size: 16px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(99, 199, 32);
+   background:yellow;
+   border:none;
+   line-height: 30px;
+   padding: 10px;
+   border-radius: 10px; 
+   cursor: pointer; 
+   -webkit-box-shadow: 3px 7px 10px 7px rgba(62, 191, 66, 0.2);
+   -moz-box-shadow: 3px 7px 10px 7px rgba(62, 191, 66, 0.2);
+   box-shadow: 3px 7px 10px 7px rgba(62, 191, 66, 0.2); 
+   width: 170px;
+   font-weight: 800;
+   margin-bottom: 20px;
+   margin-top: 5px;   
+}
+.header__wrepper-price{
+   background:greenyellow;
+   display: inline-block;
+   margin: 0px;
+}
+.header__seasonings{
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(97, 168, 50);
+   font-weight: 700;   
+}
+.header__wrepper-price{
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(97, 168, 50);
+   font-weight: 900;   
+}
+.header__price, .header__calories{
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(100, 214, 23);
+   font-weight: 900;
+   margin-top: 20px;
+}
+.count{
+   width: 50px;
+   height: 40px;
+   background: rgb(209, 200, 193);
+   text-align: center;
+   font-size: 34px;
+   border-radius: 10px;
+   box-shadow: 3px 7px 5px 3px rgba(187, 164, 35, 0.2); 
+   margin-bottom: 10px;
+}
+.btn-delete{
+   text-align: center;
+   font-size: 16px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(228, 109, 11);
+   background:rgb(219, 204, 198);
+   border:none;
+   cursor: pointer;
+   padding: 8px;
+   border-radius: 5px; 
+   -webkit-box-shadow: 3px 7px 5px 3px rgba(187, 164, 35, 0.2);
+   -moz-box-shadow: 3px 7px 5px 3px rgba(187, 164, 35, 0.2);
+   box-shadow: 3px 7px 5px 3px rgba(187, 164, 35, 0.2); 
+   margin-top: 10px; 
+   width: 170px; 
+}
+.headr__count-namber{
+   margin: 0 auto;
+   width: 1046px;
+   display: flex;
+   justify-content: space-around;     
+}
+.header__wrepper-delete{
+   margin: 0 auto;
+   width: 1000px;
+   display: flex;
+   justify-content: space-between;   
+}

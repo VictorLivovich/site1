@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" type="text/css" href="start_14.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>STAR_14</title>
+</head>
+
+<body>
+   <div class="contener">
+      <h1 class="header">ВЫБЕРИТЕ РАЗМЕР БУРГЕРА</h1>
+      <div class="header__wrepper">
+         <button class="header__btn-large btn" data-sum="100" data-call="40">БОЛЬШОЙ БУРГЕР<br>100 тугриков<br> 40
+            калорий</button>
+         <button class="header__btn-average btn" data-sum="75" data-call="30">СРЕДНИЙ БУРГЕР<br>75 тугриков<br> 30
+            калорий</button>
+         <button class="header__btn-small btn" data-sum="50" data-call="20">МАЛЕНЬКИЙ БУРГЕР<br>50 тугриков<br> 20
+            калорий</button>
+      </div>
+      <h2 class="header__seasonings">ВЫБЕРИТЕ ПРИПРАВЫ</h2>
+      <div class="header__wrepper-seasonings">
+         <button class="header__btn-cheese btn-seasonings" data-id="1" data-sum="10" data-call="20">ДОБАВИТЬ СЫР<br>10
+            тугриков<br> 20 калорий
+         </button>
+         <button class="header__btn-salad btn-seasonings" data-id="2" data-sum="20" data-call="5">ДОБАВИТ САЛАТ<br>20
+            тугриков<br> 5 калорий
+         </button>
+         <button class="header__btn-potatoes btn-seasonings" data-id="3" data-sum="15" data-call="10">ДОБАВИТЬ
+            КАРТОФЕЛЬ<br>15 тугриков<br> 10 калорий</button>
+         <button class="header__btn-seasoning btn-seasonings" data-id="4" data-sum="15" data-call="0">ДОБАВИТ
+            ПРИПРАВУ<br>15 тугриков<br> 0 калорий</button>
+         <button class="header__btn-mayonnaise btn-seasonings" data-id="5" data-sum="20" data-call="5">ДОБАВИТЬ
+            МАЦОНЕЗ<br>20 тугриков<br> 5 калорий</button>
+      </div>
+      <div class="headr__count-namber">
+         <span class="count__namber count">0</span>
+         <span class="count__namber-salad count">0</span>
+         <span class="count__namber-potatoes count">0</span>
+         <span class="count__namber-seasoning count">0</span>
+         <span class="count__namber-mayonnaise count">0</span>
+      </div>
+
+      <div class="header__wrepper-delete">
+         <button class="header__btn-delete-cheese btn-delete" data-id="1" data-sum="-10" data-call="-20">УДААЛИТЬ ОДНУ
+            ПРИПРАВУ с СЫРОМ</button>
+         <button class="header__btn-delete-salad btn-delete" data-id="2" data-sum="-20" data-call="-5">УДААЛИТЬ ОДНУ
+            ПРИПРАВУ с САЛАТОМ</button>
+         <button class="header__btn-delete-potatoes btn-delete" data-id="3" data-sum="-15" data-call="-10">УДААЛИТЬ ОДНУ
+            ПРИПРАВУ с КАРТОФЕЛЕМ</button>
+         <button class="header__btn-delete-seasoning btn-delete" data-id="4" data-sum="-15" data-call="0">УДААЛИТЬ ОДНУ
+            ПРИПРАВУ</button>
+         <button class="header__btn-delete-mayonnaise btn-delete" data-id="5" data-sum="-20" data-call="-5">УДААЛИТЬ
+            ОДНУ ПРИПРАВУ с МАЙОНЕЗОМ</button>
+      </div>
+      <div class="header__price">ЦЕНА БУРГЕРА :
+         <h2 class="header__wrepper-price"></h2>
+      </div>
+      <div class="header__calories">КОЛИЧЕСТВО КАЛОРИЙ В БУРГЕРЕ :
+         <h2 class="header__wrepper-price header__wrepper-calories"></h2>
+      </div>
+   </div>
+   <script src="start_14.js"></script>
+</body>
+
+</html>
